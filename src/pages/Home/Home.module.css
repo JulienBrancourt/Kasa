@@ -1,0 +1,11 @@
+.container {
+    max-width: 1240px;
+    margin: 1% auto;
+
+}
+
+.blocCards {
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+}

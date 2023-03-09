@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    /* width: 83%; */
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black;
+    background-color: #FF6060; */
+    color:#FFFFFF;
+    font-size: 24px;
+    
+    /* border-radius: 5px; */
+}
+
+.entete {
+    background-color: #FF6060;
+    color:#FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 100%;
+    padding: 0 50px;
+    border-radius: 5px;
+}
+
+
+
+.texte {
+    background-color: #F6F6F6;
+    color: #FF6060;
+    /* width: 100%; */
+    /* text-align: center; */
+    border-radius: 5px;
+    /* font-weight: 400; */
+    padding: 1rem;
+}
+
+.fleche {
+    font-weight: 400;
+}
+
