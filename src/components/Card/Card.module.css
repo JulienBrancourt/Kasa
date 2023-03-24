@@ -10,7 +10,6 @@
 
 .title {
     color: #ffffff;
-    /* z-index: 10; */
     position: absolute;
     top: 268px;
     left: 20px;
@@ -29,8 +28,10 @@
 }
 
 .vignette:hover {
-    box-shadow: 0 0 0 10px rgba(255, 96, 96, 0.1),
-        0 0 0 5px rgba(255, 96, 96, 0.3), 0 0 0 1px rgba(255, 96, 96, 1);;
+    box-shadow: 
+        0 0 0 10px rgba(255, 96, 96, 0.1),
+        0 0 0 5px rgba(255, 96, 96, 0.3), 
+        0 0 0 1px rgba(255, 96, 96, 1);
 }
 
 .cover {
@@ -56,11 +57,6 @@
     border-radius: 10px;
 }
 
-@media screen and (max-width: 768px) {
-    
-    
-}
-
 @media screen and (max-width: 480px) {
     .vignette {
         width: 335px;
@@ -79,7 +75,5 @@
         align-items: flex-start;
         padding: 0;
         background-color: #ffffff;
-        /* background-color: #f6f6f6;
-        border-radius: 25px; */
     }
 }

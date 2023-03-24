@@ -20,7 +20,7 @@ function App() {
               <Route path="*" element={<Erreur />}/>
           </Routes> 
           <Footer />
-      </Router>
+        </Router>
     )
 }
 

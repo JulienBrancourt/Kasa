@@ -6,7 +6,7 @@ import BannerImageHome from '../../assets/IMGBanner.png'
 function Home() {
   return (
   <div className={styles.container}> 
-{/* on utilise les props renseignées dans Banner, après avoir importé l'image   */}
+{/* on utilise les props renseignées dans Banner, après avoir importé l'image */}
   <Banner sourceImage={BannerImageHome} texteAltImage="une plage et de la forêt" Titre="Chez vous, partout et ailleurs"/>
   <section className={styles.blocCards}>
     <Card />

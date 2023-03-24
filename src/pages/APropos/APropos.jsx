@@ -11,8 +11,7 @@ function APropos() {
         <div className={styles.collapse}>
           <Collapse 
             titre="Fiabilité" 
-            description="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes." 
-            
+            description="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes."            
           />
         </div>
         <div className={styles.collapse}>
@@ -38,4 +37,4 @@ function APropos() {
     )
   }
   
-  export default APropos
+export default APropos

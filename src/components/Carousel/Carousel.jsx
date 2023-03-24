@@ -1,5 +1,4 @@
 import { useState } from "react"
-// import { useParams } from "react-router-dom"
 import flechePrecedente from '../../assets/Vectorprev.png'
 import flecheSuivante from '../../assets/Vectornext.png'
 import styles from './Carousel.module.css'
