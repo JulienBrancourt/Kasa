@@ -7,7 +7,7 @@ import Erreur from './pages/Erreur/Erreur'
 
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
-import styles from './App.module.css'
+
 
 function App() {
     return (
@@ -15,8 +15,8 @@ function App() {
           <Header />
           <Routes> 
               <Route exact path="/" element={<Home />} />
-              <Route path="/Fichelogement/:id" element={<FicheLogement />} /> 
-              <Route path="/APropos" element={<APropos />} />
+              <Route path="/fiche-logement/:id" element={<FicheLogement />} /> 
+              <Route path="/a-propos" element={<APropos />} />
               <Route path="*" element={<Erreur />}/>
           </Routes> 
           <Footer />

@@ -20,7 +20,7 @@ return (
     <div className={styles.Card}>
         {logements.map(logement => (
             <div key={logement.id} className={styles.vignette}>
-                <Link to={`/Fichelogement/${logement.id}`}>
+                <Link to={`/fiche-logement/${logement.id}`}>
                     <img src={logement.cover} alt={logement.title} className={styles.cover}/>
                     <div className={styles.filtre}></div>
                     <h2 className={styles.title}>{logement.title}</h2>

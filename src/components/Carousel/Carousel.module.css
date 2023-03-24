@@ -1,0 +1,64 @@
+
+.carousel {
+    max-width: 1240px;
+    width: 100%;
+    height: 415px;
+    position: relative;
+    margin: 0 auto;
+    /* border-radius: 25px; */
+} 
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+
+}
+
+.flecheg, .fleched{
+    width: 46.68px;
+    height: 79.2px;
+    position: absolute;
+    top: 50%;
+}
+.flecheg {
+    left: 23.36px;
+    transform: translateY(-50%);
+}
+
+.fleched {
+    right: 23.36px;
+    transform: translateY(-50%);
+}
+
+.compteur {
+    position: absolute;
+    bottom: 6.01%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 480px) {
+    .carousel {
+        max-width: 335px;
+        width: 100%;
+        height: 255px;
+    }
+
+    .image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    
+    }
+    
+    .flecheg, .fleched{
+        width: 11.67px;
+        height: 19.8px;
+    }
+}

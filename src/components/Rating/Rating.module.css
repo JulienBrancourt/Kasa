@@ -1,0 +1,21 @@
+.container {
+    /* margin-top: 24px; */
+    padding-top: 24px;
+    width: 100%;
+}
+
+.etoile {
+    width: 30px;
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .etoile {
+        width: 15px;
+    }
+}
