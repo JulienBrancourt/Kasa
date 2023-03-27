@@ -13,7 +13,7 @@ function FicheLogement() {
 
   const [isLoading, setIsLoading] = useState(true) // Ajout de l'état isLoading
 
-  const navigate = useNavigate()
+  const navigate = useNavigate() // permet de créer une fonction de navigation
 
   useEffect(() => {
     fetch(`/datas/logements.json`)
