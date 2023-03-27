@@ -35,7 +35,7 @@ function FicheLogement() {
 
   if (isLoading) {
     return (
-    <div><Loader /></div>
+    <div className={styles.loader}><Loader /></div>
     )
   }
 

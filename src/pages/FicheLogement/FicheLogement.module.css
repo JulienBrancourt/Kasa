@@ -9,6 +9,12 @@
     padding-top: 25.63px;
 }
 
+.loader {
+    display: flex;
+    flex-grow: 1;
+    margin: 30px auto;
+}
+
 .infosGlobales {
     display: flex;
     flex-direction: row;
