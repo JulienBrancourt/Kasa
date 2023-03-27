@@ -34,6 +34,10 @@
     margin-top: 66px;
 }
 
+.ligne {
+    display: none;
+}
+
 .lien::before{
     content: "";
     position: absolute;
@@ -53,9 +57,14 @@
 
 @media screen and (max-width: 480px) {
     .message {
-        font-size: 18PX;
-        width: 219px;
+        font-size: 18px;
+        width: 275px;
         margin-top: 11px;
+        white-space: break-spaces;
+    }
+
+    .ligne {
+        display: block;
     }
 
     .lien {

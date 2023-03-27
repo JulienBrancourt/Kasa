@@ -15,16 +15,16 @@ function FicheLogement() {
 
   const navigate = useNavigate()
 
-
-
   useEffect(() => {
     fetch(`/datas/logements.json`)
       .then(response => response.json())
       .then(data => {
 //on cherche dans le tableau "data" l'objet logement dont l'id est indiqué dans l'url
         const logement = data.find(logement => logement.id === id)
+        
         setLogement(logement)
         setIsLoading(false) // Changement de l'état isLoading une fois les données chargées
+        document.title = `Kasa : ${logement.title}`
       })
       .catch(error => {
         console.error(error)
@@ -44,6 +44,9 @@ function FicheLogement() {
       navigate('/erreur')//redirection vers la page Erreur
     )
   }
+
+  
+
   return (
     <div className={styles.container}>
 

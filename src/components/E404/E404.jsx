@@ -6,7 +6,10 @@ function E404 () {
     
         <div className={styles.container}>  
           <div className={styles.chiffre}>404</div>
-          <div className={styles.message}>Oups! La page que vous demandez n'existe pas.</div>
+          <div className={styles.message}>
+            Oups! La page que <br className={styles.ligne}/>
+            vous demandez n'existe pas.
+          </div>
           <Link to="/" className={styles.lien}>Retourner sur la page d’accueil</Link>
         </div>
     )
