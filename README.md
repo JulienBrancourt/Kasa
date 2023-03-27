@@ -4,7 +4,7 @@ Projet 7 du parcours Développeur Web Openclassrooms
 
 ## Introduction
 
-Ce projet est une application web de location de logements proposés par l'agence Kasa. L'application permet aux utilisateurs de visualiser les différents logements proposés par Kasa et de les louer pour une certaine période. L'application a été développée avec React et utilise une API pour récupérer les données des différents logements proposés.
+Ce projet est une application web de location de logements entre particuliers.
 
 ## Installation
 
