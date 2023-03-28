@@ -23,6 +23,6 @@ L'application devrait être accessible à l'adresse http://localhost:3000/.
 
 ## Technologies utilisées
 
-React
-React Router
-Modules CSS
+-   React
+-   React Router
+-   Modules CSS

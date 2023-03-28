@@ -9,6 +9,7 @@ function Home() {
   useEffect(() => {
     document.title = `Kasa : Accueil`
   })
+  
   return (
   <div className={styles.container}> 
 {/* on utilise les props renseignées dans Banner, après avoir importé l'image */}
@@ -16,9 +17,7 @@ function Home() {
   <section className={styles.blocCards}>
     <Card />
   </section>
-  </div> 
-  
-
+  </div>  
   )
 }
 
