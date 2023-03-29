@@ -60,4 +60,8 @@
         width: 11.67px;
         height: 19.8px;
     }
+
+    .compteur {
+        display: none;
+    }
 }
