@@ -27,6 +27,8 @@
     position: relative;
 }
 
+
+
 .accueil::before,
 .about::before {
     content: "";
@@ -57,9 +59,10 @@
 }
 
 @media screen and (max-width: 768px) {
-    .accueil, .about {
+    .accueil, .about, .accueilsouligne, .aboutsouligne {
         margin-left: 10px;
     }
+
     .header {
         justify-content: space-between;
     }
